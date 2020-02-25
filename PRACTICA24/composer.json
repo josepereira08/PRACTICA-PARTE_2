@@ -1,0 +1,18 @@
+{
+    "name": "jp/oop",
+    "description": "Este es el curso de programacion orientado a objetos",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joseperira08",
+            "email": "jpyftsunami08@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "jp\\": "src/"
+        }
+    }
+}
